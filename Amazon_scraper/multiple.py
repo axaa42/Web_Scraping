@@ -12,9 +12,9 @@ class MultipleSpider(scrapy.Spider):
     #The start_requests is the way scrapy will request all the urls
     allowed_domains = ['amazon.com']
     #The following is the urls that we scrape.
-    start_urls = ['https://www.amazon.co.uk/s/ref=sr_pg_1?fst=as%3Aon&rh=k%3Aheadphones%2Cn%3A560798&keywords=headphones&ie=UTF8&qid=1553447552',
-                'https://www.amazon.co.uk/s/ref=sr_pg_2?fst=as%3Aon&rh=k%3Aheadphones%2Cn%3A560798&page=2&keywords=headphones&ie=UTF8&qid=1553447541',
-               "https://www.amazon.co.uk/s?k=headphones&i=electronics&rh=n%3A560798&page=3&qid=1553655220&ref=sr_pg_3"]
+    start_urls = ['xxxxxxxxxxxxxxxxxxxx",
+                'xxxxxxxxxxxxxxxxxxxxxxx',
+               "xxxxxxxxxxxxxxxxxxxxxxxxxx"]
     #The follwoing function calls to those urls
     def start_requests(self):
         for url in self.start_urls:
