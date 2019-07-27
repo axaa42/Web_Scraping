@@ -3,7 +3,7 @@ import scrapy
 import pandas as pd
 from scrapy.selector import Selector #'THIS USES HTML PARSER TO PARSE THE WEB
 
-#This project will scrapte the amazon site and get the name of the item and its price
+#This project will scrape the amazon site and get the name of the item and its price
 
 class MultipleSpider(scrapy.Spider):
     name = 'multiple'#name of our spiyder
