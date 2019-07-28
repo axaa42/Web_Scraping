@@ -38,7 +38,7 @@ class MultipleSpider(scrapy.Spider):
         cols = ['item', 'price']#WE ARE NOT CONVERTING TO DF CUZ IT MAKES IT EASIER TO THEN CONVERT TO CSV
         #dat = pd.DataFrame(columns = cols)
         #for key,value in dic.items():
-         #   dat = dat.append({'item': str(key), 'price':value},ignore_index=True) #convering to dataframe.So we can do analysis on the prices later
+         #   dat = dat.append({'item': str(key), 'price':value},ignore_index=True) #convering to dataframe also allows easy analysis
             
         
         
